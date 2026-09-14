@@ -1,6 +1,23 @@
+# Python / Compilados
 __pycache__/
 *.py[cod]
+*$py.class
+
+# Entornos virtuales
 .venv/
-.streamlit/
-*.DS_Store
+env/
+venv/
+
+# Credenciales / Configuración local sensible
+.streamlit/secrets.toml
+.env
+
+# Archivos de sistema operativo
+.DS_Store
+Thumbs.db
+
+# Temporales y salidas de prueba (opcional, si guardas estado local en disco)
 temp_pdfs/
+*.zip
+*.xlsx
+*.csv
